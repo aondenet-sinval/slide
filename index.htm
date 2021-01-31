@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>Sinval Gomes - Slide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="#praiana" onclick="w3_close()" class="w3-bar-item w3-button">Sobre a Praia</a>
+  <a href="#acesso" onclick="w3_close()" class="w3-bar-item w3-button">Como Chegar</a>
+  <a href="#notaca" onclick="w3_close()" class="w3-bar-item w3-button">Nota dos Visitantes</a>
+</div>
+
+<div id="main">
+
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>Portfolio - Slide</h1>
+  </div>
+</div>
+<!---HEADER-->
+
+<div class="w3-content w3-display-container">
+<div class="w3-display-container mySlides">
+  <img src="ph1.jpeg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Praia do Tororão *
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="ph2.jpeg" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Praia da Amendoeiras *
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="ph3.jpeg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Barranco Branco - Próximo a Praia do Paixão *
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="ph4.jpeg" style="width:100%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    Praia do Tororão *
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="ph5.jpeg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Praia do Centro de Prado-BA
+  </div>
+</div>
+</div>
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+ <!-- About -->
+<div id="about" class="w3-padding-top-64">
+<div class="w3-row">
+
+<div class="w3-half w3-padding-large w3-hide-small">
+<img src="ph5.jpeg" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
+</div>
+
+<div class="w3-half w3-padding-large">
+<h1 id="praiana" class="w3-center">Sobre a praia do Centro</h1><br>
+<h5 class="w3-center">Tradicional e mais frequentada no verão</h5>
+<p class="w3-large">
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+<p class="w3-large w3-text-grey w3-hide-medium">
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+
+</div>
+<div class="w3-display-container">
+<h1 id="acesso" class="w3-center">Como Chegar</h1><br>
+  <ul class="w3-ul">
+<li class="w3-xxlarge"><i class="fa fa-female"></i> Praias acessíveis a poucos metros da maioria das pousadas.</li>
+<li class="w3-xxlarge"><i class="fa fa-car"></i> * Praias acessíveis de automovel localização afastada da cidade.</li>
+<li class="w3-xxlarge"><i class="fa fa-plane"></i> Aeroporto para pequenas aeronaves</li>
+ </ul>
+</div> 
+<div class="w3-display-container">
+<p id="notaca" class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Nota dos visitantes</b></p>
+          <p>Acolhida</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>Limpeza da cidade</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Opções de entretenimento</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          </div>
+          <p>Culinária</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div>
+          </div>
+          <hr>
+ </div>
+</div> 
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-teal w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-white">w3.css</a> - Sinval Gomes</p>
+</footer>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+</body>
+</html>
